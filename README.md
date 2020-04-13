@@ -15,11 +15,11 @@ Open __init__.py and change 'host' value to your mongo database and db to your d
 ### Requests to api
 #### Register user
 ```sh
-$ httpie POST :5000/api/v1.0/auth/register username=testuser password=testuserpassword email=test@email.com
+$ http POST :5000/api/v1.0/auth/register username=testuser password=testuserpassword email=test@email.com
 ```
 #### Login user
 ```sh
-$ httpie POST :5000/api/v1.0/auth/login username=testuser password=testuserpassword
+$ http POST :5000/api/v1.0/auth/login username=testuser password=testuserpassword
 ```
 #### Get all users
 ```sh
